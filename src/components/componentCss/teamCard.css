@@ -1,0 +1,123 @@
+.team_card_body{
+    width: 100%;
+    height: max-content;
+    padding: 80px 100px;
+}
+
+.team_card_body_top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.team_card_body_top h3{
+    width: max-content;
+    color: #13C5DD;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border-bottom: 4px solid rgba(211, 211, 211, 0.567);
+}
+
+.team_card_body_top h1{
+    color: #1D2A4D;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.team_card_body_bottom{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.team_card{
+    width: 48%;
+    height: 340px;
+    background-color: #EFF5F9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_card_img{
+    width: 45%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.team_card_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.team_card_text_container{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.team_card_text_container h3{
+    width: 100%;
+    padding: 0px 20px;
+    color: #1D2A4D;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;   
+}
+
+.team_card_text_container h3 small{
+    color: #13C5DD;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500; 
+    font-style: italic;  
+}
+
+.team_card_text_container p{
+    width: 100%;
+    padding: 0px 20px;
+    color: #848E9F;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.team_card_media_link_container{
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* background-color: yellow; */
+    border-top: 1px solid lightgrey;
+    margin-top: 40px;
+}
+
+.team_card_media_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #13C5DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 22px;
+}

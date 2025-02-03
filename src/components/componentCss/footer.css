@@ -1,0 +1,120 @@
+.footer_body{
+    width: 100%;
+    height: max-content;
+}
+
+.footer_top{
+    width: 100%;
+    height: max-content;
+    padding: 80px 100px;
+    background-color: #1D2A4D;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer_info_container{
+    width: 22%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: yellow; */
+}
+
+.footer_info_container h2{
+    width: max-content;
+    color: #13C5DD;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border-bottom: 4px solid #2a3d72;
+}
+
+.footer_info_container p{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer_get_in_touch_media_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer_get_in_touch_media{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_nav_link_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_info_container a{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer_media_link_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer_media_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #13C5DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    transition: all 350ms ease-in-out;
+}
+
+.footer_media_icon:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.footer_bottom{
+    width: 100%;
+    height: max-content;
+    padding: 24px 100px;
+    border-top: 1px solid #13c6dd42;
+    background-color: transparent;
+    background-color: #1D2A4D;
+}
+
+.footer_bottom p{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-family: 500;
+}
+
+.footer_bottom p span{
+    color: #13C5DD;
+}

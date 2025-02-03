@@ -1,0 +1,146 @@
+.appointment_card_body{
+    width: 100%;
+    height: max-content;
+    padding: 80px 100px;
+    background-color: #13C5DD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment_card_text_container{
+    width: 48%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.appointment_card_text_container h3{
+    width: max-content;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border-bottom: 4px solid rgba(211, 211, 211, 0.896);
+}
+
+.appointment_card_text_container h1{
+    color: #1D2A4D;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.appointment_card_text_container p{
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.appointment_card_btn_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.appointment_card_btn_container button{
+    width: max-content;
+    padding: 22px 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 100px;
+    border: none;
+    background-color: #1D2A4D;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+}
+
+.appointment_card_btn_container button:last-child{
+    background-color: transparent;
+    border: 1px solid #1D2A4D;
+    color: #1D2A4D;
+}
+
+.appointment_card_btn_container button:last-child:hover{
+    background-color: #1D2A4D;
+    color: #fff;
+}
+
+.appointment_card_form_container{
+    width: 48%;
+    height: max-content;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appointment_card_form_container h1{
+    color: #1D2A4D;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.appointment_card_form_input_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.appointment_card_form_input_container select{
+    width: 48%;
+    height: 50px;
+    padding: 10px;
+    color: #848E9F;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #EFF5F9;
+    border: none;
+}
+
+.appointment_card_form_input_container input{
+    width: 48%;
+    height: 50px;
+    padding: 10px;
+    color: #848E9F;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #EFF5F9;
+    border: none;
+}
+
+.appointment_card_form_container button{
+    width: 100%;
+    height: max-content;
+    padding: 20px 0px;
+    background-color: #13C5DD;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 350ms ease-in-out;
+    border: none;
+}
+
+.appointment_card_form_container button:hover{
+    color: #000;
+    box-shadow: 2px 3px 4px 1px rgba(84, 84, 84, 0.763);
+}
