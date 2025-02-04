@@ -14,6 +14,7 @@ const Header = () => {
     const navigate = useNavigate()
 
     const [showMenu, setShowMenu] = useState(false)
+    const [showPagesMenu, setShowPagesMenu] = useState(false)
 
   return (
     <>
@@ -42,7 +43,18 @@ const Header = () => {
                     <NavLink to="/about" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>About</NavLink>
                     <NavLink to="/service" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Service</NavLink>
                     <NavLink to="/appointment" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Appointment</NavLink>
-                    <NavLink to="/pages" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Pages <MdArrowDropDown/></NavLink>
+                    <div className='menuNotActive' onClick={()=>setShowPagesMenu(!showPagesMenu)}>
+                        Pages
+                        <MdArrowDropDown/>
+                        {
+                            showPagesMenu ? 
+                                <div className='header_pages_container'>
+                                    <NavLink to="/the-team" className={({isActive})=> isActive ? "pagesActive" : "pagesNotActive"}>The Team</NavLink>
+                                    <NavLink to="/search" className={({isActive})=> isActive ? "pagesActive" : "pagesNotActive"}>Search</NavLink>
+                                </div>
+                            : null
+                        }
+                    </div>
                     <NavLink to="/contact" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Contact</NavLink>
                 </article>
                 {
@@ -58,6 +70,8 @@ const Header = () => {
                             <NavLink to="/service" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Service</NavLink>
                             <NavLink to="/appointment" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Appointment</NavLink>
                             <NavLink to="/contact" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Contact</NavLink>
+                            <NavLink to="/the-team" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>The Team</NavLink>
+                            <NavLink to="/Search" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Search</NavLink>
                         </article>
                     : null
                 }

@@ -42,7 +42,7 @@ const Footer = () => {
                 <IoIosArrowForward/>
                 Our Services
               </a>
-              <a href='/'>
+              <a href='/the-team'>
                 <IoIosArrowForward/>
                 Meet The Team
               </a>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <IoIosArrowForward/>
                 Our Services
               </a>
-              <a href='/'>
+              <a href='/the-team'>
                 <IoIosArrowForward/>
                 Meet The Team
               </a>

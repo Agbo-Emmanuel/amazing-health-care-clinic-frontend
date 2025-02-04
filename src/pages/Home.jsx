@@ -63,7 +63,7 @@ const Home = () => {
         <ServiceCard limit = {6}/>
         <AppointmentCard/>
         <TeamCard/>
-        <FindADoctorCard/>
+        <FindADoctorCard bg="#13C5DD" text="Easily find qualified healthcare professionals to meet your specific needs and receive the best care possible"/>
       </main>
     </>
   )

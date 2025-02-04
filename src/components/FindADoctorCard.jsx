@@ -1,13 +1,13 @@
 import React from 'react'
 import './componentCss/findDoctorCard.css'
 
-const FindADoctorCard = () => {
+const FindADoctorCard = ({bg, text, color, pColor}) => {
   return (
     <>
-        <div className='find_doctor_body'>
-          <h3>Find A Doctor</h3>
+        <div className='find_doctor_body' style={{backgroundColor: bg}}>
+          <h3 style={{color: color}}>Find A Doctor</h3>
           <h1>Find A Healthcare Professionals</h1>
-          <p>Easily find qualified healthcare professionals to meet your specific needs and receive the best care possible</p>
+          <p style={{color: pColor}}>{text}</p>
           <form className='find_doctor_section_form_container'>
             <select>
               <option>Department</option>

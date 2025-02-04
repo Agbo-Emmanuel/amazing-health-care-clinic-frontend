@@ -99,6 +99,8 @@
     transition: all 350ms ease-in-out;
     display: flex;
     align-items: center;
+    position: relative;
+    cursor: pointer;
 }
 
 .menuActive{
@@ -108,6 +110,41 @@
 
 .menuNotActive:hover{
     border-bottom: 4px solid #13C5DD;
+    color: #13C5DD;
+}
+
+.header_pages_container{
+    width: 200px;
+    height: max-content;
+    padding: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 99999;
+    border-radius: 6px;
+    border: 1px solid rgb(242, 242, 242);
+    display: flex;
+    flex-direction: column;
+    cursor: alias;
+}
+
+.pagesNotActive, .pagesActive{
+    color: #000;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 6px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.pagesNotActive:hover, .pagesActive:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.pagesActive{
+    color: #13C5DD;
 }
 
 .bugger_menu_container{
