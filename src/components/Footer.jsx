@@ -30,23 +30,23 @@ const Footer = () => {
           <article className='footer_info_container'>
             <h2>Quick Links</h2>
             <div className='footer_nav_link_container'>
-              <a href=''>
+              <a href='/'>
                 <IoIosArrowForward/>
                 Home
               </a>
-              <a href=''>
+              <a href='/about'>
                 <IoIosArrowForward/>
                 About Us
               </a>
-              <a href=''>
+              <a href='/service'>
                 <IoIosArrowForward/>
                 Our Services
               </a>
-              <a href=''>
+              <a href='/'>
                 <IoIosArrowForward/>
                 Meet The Team
               </a>
-              <a href=''>
+              <a href='/contact'>
                 <IoIosArrowForward/>
                 Contact Us
               </a>
@@ -55,23 +55,23 @@ const Footer = () => {
           <article className='footer_info_container'>
             <h2>Popular Links</h2>
             <div className='footer_nav_link_container'>
-              <a href=''>
+              <a href='/'>
                 <IoIosArrowForward/>
                 Home
               </a>
-              <a href=''>
+              <a href='/about'>
                 <IoIosArrowForward/>
                 About Us
               </a>
-              <a href=''>
+              <a href='/service'>
                 <IoIosArrowForward/>
                 Our Services
               </a>
-              <a href=''>
+              <a href='/'>
                 <IoIosArrowForward/>
                 Meet The Team
               </a>
-              <a href=''>
+              <a href='/contact'>
                 <IoIosArrowForward/>
                 Contact Us
               </a>
