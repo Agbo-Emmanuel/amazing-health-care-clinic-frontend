@@ -81,3 +81,29 @@
     font-weight: 400;
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    .service_card_body{
+        padding: 50px 16px;
+    }
+
+    .service_card_body_top h3{
+        font-size: 20px;
+    }
+
+    .service_card_body_top h1{
+        font-size: 40px;
+    }
+
+    .service_card_container{
+        width: 100%;
+    }
+
+    .service_card_body_bottom{
+        gap: 20px;
+    }
+
+}

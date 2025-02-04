@@ -86,3 +86,35 @@
     height: 100%;
     object-fit: contain;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .hero_section{
+        height: max-content;
+        padding: 50px 16px;
+    }
+
+    .hero_section_image_container{
+        display: none;
+    }
+
+    .hero_section_text_container{
+        width: 100%;
+        height: max-content;
+    }
+
+    .hero_section_text_container h1{
+        font-size: 54px;
+        text-align: center;
+    }
+
+    .hero_section_btn_container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -87,3 +87,52 @@
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .find_doctor_body{
+        padding: 50px 16px;
+    }
+
+    .find_doctor_body h3{
+        font-size: 22px;
+    }
+
+    .find_doctor_body h1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .find_doctor_body p{
+        width: 100%;
+    }
+
+    .find_doctor_section_form_container{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .find_doctor_section_form_container select{
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    .find_doctor_section_form_container input{
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+    .find_doctor_section_form_container button{
+        width: 100%;
+        height: 50px;
+        border-radius: 6px;
+    }
+
+}

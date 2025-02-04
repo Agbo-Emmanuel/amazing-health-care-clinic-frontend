@@ -72,3 +72,31 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .contact_media_container{
+        padding: 50px 16px;
+    }
+
+    .contact_media_container h3{
+        font-size: 20px;
+    }
+    .contact_media_container h1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .contact_media_item_body{
+        justify-content: center;
+    }
+
+    .contact_media_item_container{
+        width: 80%;
+        height: 160px;
+    }
+
+}

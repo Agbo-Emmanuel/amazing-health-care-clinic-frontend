@@ -45,6 +45,7 @@
     display: flex;
     gap: 16px;
     margin-top: 16px;
+    flex-wrap: wrap;
 }
 
 .appointment_card_btn_container button{
@@ -143,4 +144,55 @@
 .appointment_card_form_container button:hover{
     color: #000;
     box-shadow: 2px 3px 4px 1px rgba(84, 84, 84, 0.763);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .appointment_card_body{
+        padding: 50px 16px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .appointment_card_text_container{
+        width: 100%;
+    }
+
+    .appointment_card_text_container h3{
+        font-size: 22px;
+    }
+
+    .appointment_card_text_container h1{
+        font-size: 40px;
+    }
+
+    .appointment_card_btn_container button{
+        padding: 18px 26px;
+    }
+
+    .appointment_card_form_container{
+        width: 100%;
+        padding: 40px 16px;
+    }
+
+    .appointment_card_form_container h1{
+        font-size: 26px;
+    }
+
+    .appointment_card_form_input_container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .appointment_card_form_input_container select{
+        width: 100%;
+    }
+    
+    .appointment_card_form_input_container input{
+        width: 100%;
+    }
+
 }

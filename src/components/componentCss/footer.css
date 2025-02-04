@@ -118,3 +118,29 @@
 .footer_bottom p span{
     color: #13C5DD;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .footer_top{
+        padding: 50px 16px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_info_container{
+        width: 100%;
+    }
+
+    .footer_bottom{
+        padding: 24px 16px;
+    }
+
+    .footer_bottom p{
+        text-align: center;
+    }
+
+}
