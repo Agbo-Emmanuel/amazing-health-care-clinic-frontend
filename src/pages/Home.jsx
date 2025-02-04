@@ -51,7 +51,7 @@ const Home = () => {
             <h3>Welcome To Amazing Health care clinic</h3>
             <h1>Best Healthcare Solution In Your City</h1>
             <div className='hero_section_btn_container'>
-              <button onClick={()=>navigate("/")}>Find Doctor</button>
+              <button onClick={()=>navigate("/search")}>Find Doctor</button>
               <button onClick={()=>navigate("/appointment")}>Appointment</button>
             </div>
           </article>

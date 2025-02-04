@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import './componentCss/appointmentCard.css'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { useNavigate } from 'react-router-dom'
 
 const AppointmentCard = () => {
+
+    const navigate = useNavigate()
 
     const [values, setValues] = useState({
         department: "",
@@ -53,8 +56,8 @@ const AppointmentCard = () => {
                 <h1>Make An Appointment For Your Family</h1>
                 <p>Schedule an appointment for your family with ease. Our dedicated medical professionals are committed to providing exceptional care tailored to your needs. Book now to ensure timely and comprehensive healthcare services.</p>
                 <div className='appointment_card_btn_container'>
-                    <button>Find Doctor</button>
-                    <button>Read More</button>
+                    <button onClick={()=>navigate("/search")}>Find Doctor</button>
+                    <button onClick={()=>navigate("/appointment")}>Read More</button>
                 </div>
             </div>
             <form onSubmit={BookAppointment} className='appointment_card_form_container'>
