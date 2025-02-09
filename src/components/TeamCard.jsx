@@ -38,7 +38,7 @@ const TeamCard = () => {
                         <img src={ahc_team_2} alt='image'/>
                     </div>
                     <div className='team_card_text_container'>
-                        <h3>Dr Fasakin Abiola <br/><small>Cardiology Specialist</small></h3>
+                        <h3>Dr Yetunde Fasakin <br/><small>Cardiology Specialist</small></h3>
                         <p>Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor</p>
                         {/* <div className='team_card_media_link_container'>
                             <div className='team_card_media_icon'>
