@@ -101,7 +101,7 @@
 }
 
 .appointment_card_form_input_container select{
-    width: 48%;
+    width: 100%;
     height: 50px;
     padding: 10px;
     color: #848E9F;

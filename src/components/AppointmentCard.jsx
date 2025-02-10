@@ -9,7 +9,7 @@ const AppointmentCard = () => {
     const navigate = useNavigate()
 
     const [values, setValues] = useState({
-        department: "",
+        // department: "",
         doctor: "",
         name: "",
         email: "",
@@ -33,7 +33,7 @@ const AppointmentCard = () => {
             console.log(response)
             toast.success(response.data.success)
             setValues({
-                department: "",
+                // department: "",
                 doctor: "",
                 name: "",
                 email: "",
@@ -63,17 +63,16 @@ const AppointmentCard = () => {
             <form onSubmit={BookAppointment} className='appointment_card_form_container'>
                 <h1>Book An Appointment</h1>
                 <div className='appointment_card_form_input_container'>
-                    <select name='department' onChange={(e)=>Writing(e)}>
+                    {/* <select name='department' onChange={(e)=>Writing(e)}>
                         <option value="">Choose Department</option>
                         <option value="department 1">department 1</option>
                         <option value="department 2">department 2</option>
                         <option value="department 3">department 3</option>
-                    </select>
+                    </select> */}
                     <select name='doctor' onChange={(e)=>Writing(e)}>
                         <option value="">Select Doctor</option>
-                        <option value="Doctor 1">Doctor 1</option>
-                        <option value="Doctor 2">Doctor 2</option>
-                        <option value="Doctor 3">Doctor 3</option>
+                        <option value="Dr Yetunde Fasakin">Dr Yetunde Fasakin</option>
+                        <option value="Dr Fasakin Abiola">Dr Fasakin Abiola</option>
                     </select>
                 </div>
                 <div className='appointment_card_form_input_container'>
