@@ -12,7 +12,7 @@ import hospital_image2 from '../assets/hospital_image2.jpg'
 import hospital_image3 from '../assets/hospital_image3.jpg'
 import hospital_image4 from '../assets/hospital_image4.jpg'
 import hospital_image5 from '../assets/hospital_image5.jpg'
-import ahc_team_2_removebg from "../assets/ahc_team_2_removebg.png";
+// import ahc_team_2_removebg from "../assets/ahc_team_2_removebg.png";
 
 const Home = () => {
 
@@ -57,7 +57,7 @@ const Home = () => {
             </div>
           </article>
           <article className='hero_section_image_container'>
-            <img src={ahc_team_2_removebg} alt='image'/>
+            <img src={hero_image} alt='image'/>
           </article>
         </section>
         <AboutUsCard/>
