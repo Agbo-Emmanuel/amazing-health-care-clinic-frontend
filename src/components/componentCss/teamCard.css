@@ -46,6 +46,7 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    border: 1px solid #EFF5F9;
 }
 
 .team_card_img{

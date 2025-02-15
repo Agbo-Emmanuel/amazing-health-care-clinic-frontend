@@ -61,9 +61,15 @@ const Home = () => {
           </article>
         </section>
         <AboutUsCard/>
-        <ServiceCard limit = {6}/>
+        <section className='home_service_container'>
+          <ServiceCard limit={6}/>
+          <button className='view_all_btn' onClick={()=>navigate("/service")}>View all</button>
+        </section>
         <AppointmentCard/>
-        <TeamCard/>
+        <section className='home_team_container'>
+          <TeamCard limit={2}/>
+          <button className='view_all_btn' onClick={()=>navigate("/the-team")}>View all</button>
+        </section>
         <FindADoctorCard bg="#13C5DD" text="Easily find qualified healthcare professionals to meet your specific needs and receive the best care possible"/>
       </main>
     </>

@@ -1,3 +1,33 @@
 .about_body{
     width: 100%;
 }
+
+.view_all_btn{
+    width: max-content;
+    height: max-content;
+    padding: 12px 30px;
+    background-color: transparent;
+    color: #000;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: -40px 0px 50px 0px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 350ms ease-in-out;
+}
+
+.view_all_btn:hover{
+    background-color: #13C5DD;
+    color: #fff;
+    border: none;
+}
+
+.about_team_container{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

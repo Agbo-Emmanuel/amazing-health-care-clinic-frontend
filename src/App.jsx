@@ -10,11 +10,13 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import TheTeam from './pages/TheTeam'
 import Search from './pages/Search'
+import ScrollToTop from './ScrollToTop'
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop/>
         <Routes>
           <Route element = {<Landing/>}>
             <Route path='/' element = {<Home/>}/>

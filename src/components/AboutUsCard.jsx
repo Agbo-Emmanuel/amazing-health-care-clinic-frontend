@@ -4,7 +4,7 @@ import { FaUserDoctor } from "react-icons/fa6";
 import { FaProcedures } from "react-icons/fa";
 import { FaMicroscope } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
-import about_image from "../assets/about.jpg";
+import about_image from "../assets/about_img.jpg";
 
 const AboutUsCard = () => {
   return (
