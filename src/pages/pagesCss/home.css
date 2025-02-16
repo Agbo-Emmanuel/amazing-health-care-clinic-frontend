@@ -6,22 +6,17 @@
 .hero_section{
     width: 100%;
     height: 90vh;
-    padding-left: 100px;
-    /* background-image: 
-    linear-gradient(to bottom, #102325, rgba(0, 0, 0, 0.796)), 
-    url("../../assets/hospital_image1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .hero_section_text_container{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 18px;
     /* background-color: red; */
 }
@@ -36,16 +31,19 @@
 }
 
 .hero_section_text_container h1{
+    width: 70%;
     color: #fff;
-    font-size: 64px;
+    font-size: 74px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 .hero_section_btn_container{
     width: 100%;
     height: max-content;
     display: flex;
+    justify-content: center;
     gap: 20px;
     margin-top: 10px;
 }
@@ -137,7 +135,8 @@
     }
 
     .hero_section_text_container h1{
-        font-size: 54px;
+        width: 100%;
+        font-size: 44px;
         text-align: center;
     }
 

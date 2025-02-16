@@ -23,7 +23,7 @@ const TeamCard = ({limit}) => {
             name: "Dr Oyewole Favour",
             type: "Medical officer/Resident doctor",
             image: ahc_team_3,
-            desc: "Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor",
+            desc: "As a resident doctor, my days are filled with a mix of excitement, challenge, and reward. I'm constantly learning and growing, both as a medical professional and as a person. I've had the opportunity to work with experienced physicians and learn from them. I've developed my skills and knowledge, and I've become a more confident and competent doctor.",
         },
     ]
 

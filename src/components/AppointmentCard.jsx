@@ -72,7 +72,8 @@ const AppointmentCard = () => {
                     <select name='doctor' onChange={(e)=>Writing(e)}>
                         <option value="">Select Doctor</option>
                         <option value="Dr Yetunde Fasakin">Dr Yetunde Fasakin</option>
-                        <option value="Dr Fasakin Abiola">Dr Fasakin Abiola</option>
+                        <option value="Dr Afolabi Fasakin">Dr Afolabi Fasakin</option>
+                        <option value="Dr Oyewole Favour">Dr Oyewole Favour</option>
                     </select>
                 </div>
                 <div className='appointment_card_form_input_container'>

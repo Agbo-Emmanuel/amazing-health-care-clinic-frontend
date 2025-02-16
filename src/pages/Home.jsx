@@ -56,9 +56,9 @@ const Home = () => {
               <button onClick={()=>navigate("/appointment")}>Appointment</button>
             </div>
           </article>
-          <article className='hero_section_image_container'>
+          {/* <article className='hero_section_image_container'>
             <img src={hero_image} alt='image'/>
-          </article>
+          </article> */}
         </section>
         <AboutUsCard/>
         <section className='home_service_container'>

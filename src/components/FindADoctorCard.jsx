@@ -9,15 +9,15 @@ const FindADoctorCard = ({bg, text, color, pColor}) => {
           <h1>Find A Healthcare Professionals</h1>
           <p style={{color: pColor}}>{text}</p>
           <form className='find_doctor_section_form_container'>
-            <select>
+            {/* <select>
               <option>Department</option>
               <option>Department 1</option>
               <option>Department 2</option>
               <option>Department 3</option>
-            </select>
+            </select> */}
             <input
               type='text'
-              placeholder='Keyword'
+              placeholder='Doctor'
             />
             <button>Search</button>
           </form>
