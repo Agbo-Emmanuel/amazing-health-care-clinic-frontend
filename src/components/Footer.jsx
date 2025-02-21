@@ -23,7 +23,7 @@ const Footer = () => {
               </div>
               <div className='footer_get_in_touch_media'>
                 <FaPhone size={16} color='#13C5DD'/>
-                <p>+012 345 67890</p>
+                <p>+234 201 291 1837</p>
               </div>
             </div>
           </article>

@@ -3,15 +3,17 @@ import './componentCss/teamCard.css'
 import ahc_team_1 from "../assets/ahc_team_1.jpg";
 import ahc_team_2 from "../assets/ahc_team_2.jpg";
 import ahc_team_3 from "../assets/ahc_team_3.jpg";
+import ahc_team_4 from "../assets/ahc_team_4.jpg";
+import ahc_team_5 from "../assets/ahc_team_5.jpg";
 
 const TeamCard = ({limit}) => {
 
     const team = [
         {
             name: "Dr Yetunde Fasakin",
-            type: "Cardiology Specialist",
+            type: "[MBBS, FMCPsych]",
             image: ahc_team_2,
-            desc: "Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor",
+            desc: "Consultant Psychiatrist / Addiction Specialist M.D. / CEO, Amazing Health Care Clinic",
         },
         {
             name: "Dr Afolabi Fasakin",
@@ -24,6 +26,18 @@ const TeamCard = ({limit}) => {
             type: "Medical officer/Resident doctor",
             image: ahc_team_3,
             desc: "As a resident doctor, my days are filled with a mix of excitement, challenge, and reward. I'm constantly learning and growing, both as a medical professional and as a person. I've had the opportunity to work with experienced physicians and learn from them. I've developed my skills and knowledge, and I've become a more confident and competent doctor.",
+        },
+        {
+            name: "Dr Abayomi Ogunbekun",
+            type: "Deputy director",
+            image: ahc_team_4,
+            desc: "As a Deputy Director, I oversee hospital operations, ensure quality patient care, and bridge the gap between administration and medical staff, combining leadership with clinical expertise to improve healthcare services.",
+        },
+        {
+            name: "Dr.Dapo Adegbaju",
+            type: "Locum doctor",
+            image: ahc_team_5,
+            desc: "As a Locum Doctor, I provide medical care on a temporary basis, filling in where needed to ensure continuous, high-quality patient treatment while adapting to different healthcare settings.",
         },
     ]
 

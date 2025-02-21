@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             <div className='contact_media_item_container'>
               <div className='contact_media_item_icon_container'><FaPhone/></div>
-              <p>+012 345 6789</p>
+              <p>+234 201 291 1837</p>
             </div>
             <div className='contact_media_item_container'>
               <div className='contact_media_item_icon_container'><FaEnvelopeOpen/></div>
