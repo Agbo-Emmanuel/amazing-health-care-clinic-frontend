@@ -21,7 +21,7 @@ const Header = () => {
         <main className='header_body'>
             <section className='header_top'>
                 <article className='header_contact_info_container'>
-                    <p><BsTelephone/> +012 345 6789</p>
+                    <p><BsTelephone/> +234 201 291 1837</p>
                     <p>|</p>
                     <p><BsEnvelope/>info@example.com</p>
                 </article>

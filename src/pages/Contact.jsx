@@ -12,7 +12,7 @@ const Contact = () => {
           <article className='contact_media_item_body'>
             <div className='contact_media_item_container'>
               <div className='contact_media_item_icon_container'><FaLocationArrow/></div>
-              <p>123 Street, New York, USA</p>
+              <p>29 Adeshina street, Bariga, Lagos.</p>
             </div>
             <div className='contact_media_item_container'>
               <div className='contact_media_item_icon_container'><FaPhone/></div>

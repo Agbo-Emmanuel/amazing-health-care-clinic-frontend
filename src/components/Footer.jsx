@@ -15,7 +15,7 @@ const Footer = () => {
             <div className='footer_get_in_touch_media_container'>
               <div className='footer_get_in_touch_media'>
                 <FaLocationDot size={16} color='#13C5DD'/>
-                <p>123 Street, New York, USA</p>
+                <p>29 Adeshina street, Bariga, Lagos.</p>
               </div>
               <div className='footer_get_in_touch_media'>
                 <IoMdMail size={16} color='#13C5DD'/>
