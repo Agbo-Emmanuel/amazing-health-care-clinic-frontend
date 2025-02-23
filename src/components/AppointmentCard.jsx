@@ -28,7 +28,7 @@ const AppointmentCard = () => {
         e.preventDefault()
         try{
             setLoading(true)
-            const response = await axios.post("https://amazing-health-care-clinic-backend.onrender.com/api/v1/send-mail", values)
+            const response = await axios.post("https://amazing-health-care-clinic-backend.onrender.com/api/v1/send-mail-to-admin", values)
             setLoading(false)
             console.log(response)
             toast.success(response.data.success)
@@ -70,7 +70,7 @@ const AppointmentCard = () => {
                         <option value="department 3">department 3</option>
                     </select> */}
                     <select name='doctor' onChange={(e)=>Writing(e)}>
-                        <option value="">Select Doctor</option>
+                        <option value={values.doctor}>Select Doctor | optional</option>
                         <option value="Dr Yetunde Fasakin">Dr Yetunde Fasakin</option>
                         <option value="Dr Afolabi Fasakin">Dr Afolabi Fasakin</option>
                         <option value="Dr Oyewole Favour">Dr Oyewole Favour</option>
