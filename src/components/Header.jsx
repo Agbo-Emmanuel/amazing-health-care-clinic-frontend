@@ -23,7 +23,7 @@ const Header = () => {
                 <article className='header_contact_info_container'>
                     <p><BsTelephone/> +234 201 291 1837</p>
                     <p>|</p>
-                    <p><BsEnvelope/>info@example.com</p>
+                    <p><BsEnvelope/>Amazinghealthcareclinic@gmail.com</p>
                 </article>
                 <article className='header_contact_media_link_container'>
                     <FaFacebookF/>

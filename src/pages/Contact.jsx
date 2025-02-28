@@ -20,7 +20,7 @@ const Contact = () => {
             </div>
             <div className='contact_media_item_container'>
               <div className='contact_media_item_icon_container'><FaEnvelopeOpen/></div>
-              <p>info@example.com</p>
+              <p>Amazinghealthcareclinic@gmail.com</p>
             </div>
           </article>
         </section>

@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
               <div className='footer_get_in_touch_media'>
                 <IoMdMail size={16} color='#13C5DD'/>
-                <p>info@example.com</p>
+                <p>Amazinghealthcareclinic@gmail.com</p>
               </div>
               <div className='footer_get_in_touch_media'>
                 <FaPhone size={16} color='#13C5DD'/>
