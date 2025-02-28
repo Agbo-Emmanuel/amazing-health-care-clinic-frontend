@@ -29,13 +29,13 @@ const TeamCard = ({limit}) => {
         },
         {
             name: "Dr Abayomi Ogunbekun",
-            type: "Deputy director",
+            type: "General practitioner doctor/Deputy director",
             image: ahc_team_4,
             desc: "As a Deputy Director, I oversee hospital operations, ensure quality patient care, and bridge the gap between administration and medical staff, combining leadership with clinical expertise to improve healthcare services.",
         },
         {
             name: "Dr.Dapo Adegbaju",
-            type: "Locum doctor",
+            type: "Locum doctor/Psychiatrist doctor",
             image: ahc_team_5,
             desc: "As a Locum Doctor, I provide medical care on a temporary basis, filling in where needed to ensure continuous, high-quality patient treatment while adapting to different healthcare settings.",
         },
