@@ -11,7 +11,7 @@ const Landing = () => {
 
   useEffect(() => {
     if (landingRef.current) {
-      landingRef.current.scrollTo({ top: 0, behavior: "smooth" }); // 🔹 Scroll only `.landing_body`
+      landingRef.current.scrollTo({ top: 0, behavior: "smooth" });
     }
   }, [pathname]);
 
