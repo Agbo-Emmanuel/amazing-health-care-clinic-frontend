@@ -16,7 +16,7 @@ const TeamCard = ({limit}) => {
             desc: "Consultant Psychiatrist / Addiction Specialist M.D. / CEO, Amazing Health Care Clinic",
         },
         {
-            name: "Dr Afolabi Fasakin",
+            name: "Dr Afolabi",
             type: "Cardiology Specialist",
             image: ahc_team_1,
             desc: "Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor",
