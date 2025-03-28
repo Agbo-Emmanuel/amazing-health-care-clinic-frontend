@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .onboarding_form{
@@ -130,4 +131,18 @@
     color: #13C5DD;
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .onboarding_form{
+        width: 100%;
+    }
+
+    .onboarding_body{
+        padding: 0px 16px;
+    }
+
 }
