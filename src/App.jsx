@@ -11,6 +11,9 @@ import "react-toastify/dist/ReactToastify.css";
 import TheTeam from './pages/TheTeam'
 import Search from './pages/Search'
 import ScrollToTop from './ScrollToTop'
+import BlogCareer from './pages/BlogCareer'
+import Register from './onboarding/Register'
+import Login from './onboarding/Login'
 
 const App = () => {
   return (
@@ -18,6 +21,8 @@ const App = () => {
       <BrowserRouter>
         <ScrollToTop/>
         <Routes>
+          <Route path='/register' element = {<Register/>}/>
+          <Route path='/login' element = {<Login/>}/>
           <Route element = {<Landing/>}>
             <Route path='/' element = {<Home/>}/>
             <Route path='/about' element = {<About/>}/>
@@ -26,6 +31,7 @@ const App = () => {
             <Route path='/appointment' element = {<AppointmentCard/>}/>
             <Route path='/the-team' element = {<TheTeam/>}/>
             <Route path='/search' element = {<Search/>}/>
+            <Route path='/blog-career' element = {<BlogCareer/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

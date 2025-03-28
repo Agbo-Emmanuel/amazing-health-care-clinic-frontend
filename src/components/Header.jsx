@@ -21,7 +21,7 @@ const Header = () => {
         <main className='header_body'>
             <section className='header_top'>
                 <article className='header_contact_info_container'>
-                    <p><BsTelephone/> +234 201 291 1837</p>
+                    <p><BsTelephone/>+234 201 291 1837</p>
                     <p>|</p>
                     <p><BsEnvelope/>Amazinghealthcareclinic@gmail.com</p>
                 </article>
@@ -42,13 +42,14 @@ const Header = () => {
                     <NavLink to="/" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Home</NavLink>
                     <NavLink to="/about" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>About</NavLink>
                     <NavLink to="/service" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Service</NavLink>
-                    <NavLink to="/appointment" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Appointment</NavLink>
+                    <NavLink to="/blog-career" className={({isActive})=> isActive ? "menuActive" : "menuNotActive"}>Blog/Career</NavLink>
                     <div className='menuNotActive' onClick={()=>setShowPagesMenu(!showPagesMenu)}>
                         Pages
                         <MdArrowDropDown/>
                         {
                             showPagesMenu ? 
                                 <div className='header_pages_container'>
+                                    <NavLink to="/appointment" className={({isActive})=> isActive ? "pagesActive" : "pagesNotActive"}>Appointment</NavLink>
                                     <NavLink to="/the-team" className={({isActive})=> isActive ? "pagesActive" : "pagesNotActive"}>The Team</NavLink>
                                     <NavLink to="/search" className={({isActive})=> isActive ? "pagesActive" : "pagesNotActive"}>Search</NavLink>
                                 </div>
@@ -68,6 +69,7 @@ const Header = () => {
                             <NavLink onClick={()=>setShowMenu(false)} to="/" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Home</NavLink>
                             <NavLink onClick={()=>setShowMenu(false)} to="/about" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>About</NavLink>
                             <NavLink onClick={()=>setShowMenu(false)} to="/service" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Service</NavLink>
+                            <NavLink onClick={()=>setShowMenu(false)} to="/blog-career" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Blog/Career</NavLink>
                             <NavLink onClick={()=>setShowMenu(false)} to="/appointment" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Appointment</NavLink>
                             <NavLink onClick={()=>setShowMenu(false)} to="/contact" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>Contact</NavLink>
                             <NavLink onClick={()=>setShowMenu(false)} to="/the-team" className={({isActive})=> isActive ? "mobileMenuActive" : "mobileMenuNotActive"}>The Team</NavLink>

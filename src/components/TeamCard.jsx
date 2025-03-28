@@ -19,7 +19,7 @@ const TeamCard = ({limit}) => {
             name: "Dr Afolabi",
             type: "Cardiology Specialist",
             image: ahc_team_1,
-            desc: "Dolor lorem eos dolor duo eirmod sea. Dolor sit magna rebum clita rebum dolor",
+            desc: "",
         },
         {
             name: "Dr Oyewole Favour",

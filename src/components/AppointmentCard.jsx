@@ -28,7 +28,7 @@ const AppointmentCard = () => {
         e.preventDefault()
         try{
             setLoading(true)
-            const response = await axios.post("https://amazing-health-care-clinic-backend.onrender.com/api/v1/send-mail-to-admin", values)
+            const response = await axios.post("https://amazing-health-care-clinic-backend.onrender.com/api/userRoute/send-mail-to-admin", values)
             setLoading(false)
             console.log(response)
             toast.success(response.data.success)
