@@ -82,6 +82,41 @@
     color: #13C5DD;
 }
 
+.onboarding_password_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding-right: 10px;
+}
+
+.onboarding_password_container input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #2b2b2b;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.password_logo{
+    cursor: pointer;
+}
+
+.onboarding_password_container input:hover{
+    border-color: lightgrey;
+}
+
+.onboarding_password_container input:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
 .onboarding_form button{
     width: 100%;
     height: max-content;

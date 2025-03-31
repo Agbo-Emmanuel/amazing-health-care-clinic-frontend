@@ -5,6 +5,8 @@ import { LiaSpinnerSolid } from "react-icons/lia";
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { IoEye } from "react-icons/io5";
+import { IoEyeOff } from "react-icons/io5";
 
 const Register = () => {
 
@@ -13,9 +15,12 @@ const Register = () => {
     const [values, setValues] = useState({
         name : '',
         email : '',
-        password : ''
+        password : '',
+        confirmPassword : '',
     })
     const [loading, setLoading] = useState(false)
+    const [showPassword, setShowPassword] = useState(false);
+    const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
     const inputChange = (e)=>{
         const {name, value} = e.target;
@@ -33,6 +38,8 @@ const Register = () => {
             toast.error("email is required")
         }else if(!values.password){
             toast.error("password is required")
+        }else if(values.password != values.confirmPassword){
+            toast.error("passwords does not match")
         }else{
             try{
                 const url = 'https://amazing-health-care-clinic-backend.onrender.com/api/authRoute/register'
@@ -83,13 +90,37 @@ const Register = () => {
                 </div>
                 <div className='onboarding_input_container'>
                     <label>Password</label>
-                    <input
-                        type='password'
-                        placeholder='Enter your password'
-                        name='password'
-                        value={values.password}
-                        onChange={(e)=>inputChange(e)}
-                    />
+                    <div className='onboarding_password_container'>
+                        <input
+                            type={showPassword ? "text" : "password"}
+                            placeholder='Enter your password'
+                            name='password'
+                            value={values.password}
+                            onChange={(e)=>inputChange(e)}
+                        />
+                        {
+                            showPassword ? 
+                            <IoEyeOff className="password_logo" onClick={()=>setShowPassword(false)}/> : 
+                            <IoEye className="password_logo" onClick={()=>setShowPassword(true)}/>
+                        }
+                    </div>
+                </div>
+                <div className='onboarding_input_container'>
+                    <label>Confirm Password</label>
+                    <div className='onboarding_password_container'>
+                        <input
+                            type={showConfirmPassword ? "text" : "password"}
+                            placeholder='Enter your password'
+                            name='confirmPassword'
+                            value={values.confirmPassword}
+                            onChange={(e)=>inputChange(e)}
+                        />
+                        {
+                            showConfirmPassword ? 
+                            <IoEyeOff className="password_logo" onClick={()=>setShowConfirmPassword(false)}/> : 
+                            <IoEye className="password_logo" onClick={()=>setShowConfirmPassword(true)}/>
+                        }
+                    </div>
                 </div>
                 <button type='submit'>{loading ? <LiaSpinnerSolid className='spinner'/> : "Register"}</button>
                 <div className='onboarding_navigate_container'>

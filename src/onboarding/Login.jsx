@@ -5,6 +5,8 @@ import { LiaSpinnerSolid } from "react-icons/lia";
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { IoEye } from "react-icons/io5";
+import { IoEyeOff } from "react-icons/io5";
 
 const Login = () => {
 
@@ -15,6 +17,7 @@ const Login = () => {
     password : ''
   })
   const [loading, setLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false);
 
   const inputChange = (e)=>{
     const {name, value} = e.target;
@@ -70,13 +73,20 @@ const Login = () => {
           </div>
           <div className='onboarding_input_container'>
             <label>Password</label>
-            <input
-              type='password'
-              placeholder='Enter your password'
-              name='password'
-              value={values.password}
-              onChange={(e)=>inputChange(e)}
-            />
+            <div className='onboarding_password_container'>
+              <input
+                type={showPassword ? "text" : "password"}
+                placeholder='Enter your password'
+                name='password'
+                value={values.password}
+                onChange={(e)=>inputChange(e)}
+              />
+              {
+                showPassword ? 
+                <IoEyeOff className="password_logo" onClick={()=>setShowPassword(false)}/> : 
+                <IoEye className="password_logo" onClick={()=>setShowPassword(true)}/>
+              }
+            </div>
           </div>
           <button type='submit'>{loading ? <LiaSpinnerSolid className='spinner'/> : "Login"}</button>
           <div className='onboarding_navigate_container'>
