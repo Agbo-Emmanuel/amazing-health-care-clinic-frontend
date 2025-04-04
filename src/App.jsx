@@ -14,6 +14,7 @@ import ScrollToTop from './ScrollToTop'
 import BlogCareer from './pages/BlogCareer'
 import Register from './onboarding/Register'
 import Login from './onboarding/Login'
+import NotifyPage from './components/NotifyPage'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <ScrollToTop/>
         <Routes>
           <Route path='/register' element = {<Register/>}/>
+          <Route path='/notification' element = {<NotifyPage/>}/>
           <Route path='/login' element = {<Login/>}/>
           <Route element = {<Landing/>}>
             <Route path='/' element = {<Home/>}/>

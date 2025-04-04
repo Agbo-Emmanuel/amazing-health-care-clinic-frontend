@@ -48,9 +48,9 @@ const Register = () => {
                 const response = await axios.post(url, body)
                 setLoading(false)
                 console.log(response)
-                navigate("/")
-                toast.success(response.data.message)
-                localStorage.setItem('user',JSON.stringify(response.data.user))
+                navigate("/notification")
+                // toast.success(response.data.message)
+                // localStorage.setItem('user',JSON.stringify(response.data.user))
 
             }catch(error){
                 setLoading(false)
