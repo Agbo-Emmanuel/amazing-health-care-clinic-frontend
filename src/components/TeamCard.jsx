@@ -17,7 +17,7 @@ const TeamCard = ({limit}) => {
         },
         {
             name: "Dr Afolabi",
-            type: "Cardiology Specialist",
+            type: "Resident Doctor",
             image: ahc_team_1,
             desc: "",
         },
